@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 2026-06-19
+
+### Docs
+- Update README.md
+- Update ifuri-logo-package/COLORS.md
+- Update ifuri-logo-package/README.md
+
+### Other
+- Update build2.py
+- Update color/palette.png
+- Update color/palette.svg
+- Update color/tailwind.colors.js
+- Update color/tokens.css
+- Update color/tokens.json
+- Update color/tokens.scss
+- Update ico/favicon.ico
+- Update pdf/ifuri-icon.pdf
+- Update pdf/ifuri-lockup-horizontal.pdf
+- ... and 70 more files
+
 ## [0.0.1] - 2026-06-19
 
 ### Docs
