@@ -61,6 +61,12 @@ your site. For matching UI text, install Poppins or any geometric sans.
 `build2.py` builds every SVG, token file and the palette from the standardized tokens at the top of
 the script. Change `MOTTO` or any ramp there and re-run, then re-export rasters.
 
+## Site & deploy
+- `make site` — `scripts/build_site.py` assembles the brand gallery into `_site/`
+  (copies `svg/ png/ ico/ color/ pdf/ webp/`, generates `index.html` + `style.css`).
+- `make deploy` — `scripts/deploy-plesk.sh` builds `_site/` then rsyncs it to **logo.ifuri.com**
+  (Plesk). Override host/docroot via `IFURI_DEPLOY_HOST` / `IFURI_LOGO_DOCROOT`.
+
 
 ## License
 

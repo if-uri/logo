@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Makefile with `site` and `deploy` targets
+- scripts/build_site.py — builds the logo/brand gallery into `_site/`
+- scripts/deploy-plesk.sh — publish `_site/` to logo.ifuri.com (Plesk, via rsync/ssh)
+
 ## [0.0.2] - 2026-06-19
 
 ### Docs
