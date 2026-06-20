@@ -2,6 +2,8 @@
 
 ## Brand package work
 
+- [ ] Add version metadata that lets sites verify they use the current logo
+      package.
 - [ ] Add usage examples for `ifuri.com`, `get.ifuri.com`,
       `connect.ifuri.com`, `docs.ifuri.com` and app/desktop contexts.
 - [ ] Add social-card templates for runtime, connector hub, installer and noVNC

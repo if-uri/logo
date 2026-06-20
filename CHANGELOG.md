@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Add brand follow-up task for version/checksum metadata across public sites.
 - Makefile with `site` and `deploy` targets
 - scripts/build_site.py — builds the logo/brand gallery into `_site/`
 - scripts/deploy-plesk.sh — publish `_site/` to logo.ifuri.com (Plesk, via rsync/ssh)
