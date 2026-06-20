@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Author: Tom Sapletta · https://tom.sapletta.com
+# Part of the ifURI solution.
+
 """Build the ifURI brand/logo gallery for logo.ifuri.com."""
 import os, sys, html, shutil, pathlib
 ROOT=pathlib.Path(__file__).resolve().parents[1]

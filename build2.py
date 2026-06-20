@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Author: Tom Sapletta · https://tom.sapletta.com
+# Part of the ifURI solution.
+
 import os, json
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
