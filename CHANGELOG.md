@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Makefile with `site` and `deploy` targets
 - scripts/build_site.py — builds the logo/brand gallery into `_site/`
 - scripts/deploy-plesk.sh — publish `_site/` to logo.ifuri.com (Plesk, via rsync/ssh)
+- Repository-level TODO for brand package follow-up work.
+- README links to website, runtime, docs, connector hub, installer, examples
+  and the current cross-repository work summary.
 
 ## [0.0.2] - 2026-06-19
 
@@ -51,4 +54,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update ifuri-logo-package/color/palette.png
 - Update ifuri-logo-package/color/palette.svg
 - ... and 78 more files
-

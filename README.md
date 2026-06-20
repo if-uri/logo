@@ -67,6 +67,19 @@ the script. Change `MOTTO` or any ramp there and re-run, then re-export rasters.
 - `make deploy` — `scripts/deploy-plesk.sh` builds `_site/` then rsyncs it to **logo.ifuri.com**
   (Plesk). Override host/docroot via `IFURI_DEPLOY_HOST` / `IFURI_LOGO_DOCROOT`.
 
+## Related projects
+
+- Website: [ifuri.com](https://ifuri.com)
+- Runtime: [tellmesh/urirun](https://github.com/tellmesh/urirun)
+- Public docs: [if-uri/docs](https://github.com/if-uri/docs)
+- Connector hub: [connect.ifuri.com](https://connect.ifuri.com)
+- Installer: [get.ifuri.com](https://get.ifuri.com)
+- Examples: [if-uri/examples](https://github.com/if-uri/examples)
+- Current work summary:
+  [work-summary-2026-06-20](https://github.com/if-uri/docs/blob/main/work-summary-2026-06-20.md)
+
+Repository notes: [TODO.md](TODO.md) · [CHANGELOG.md](CHANGELOG.md)
+
 
 ## License
 
