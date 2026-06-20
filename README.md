@@ -70,7 +70,7 @@ the script. Change `MOTTO` or any ramp there and re-run, then re-export rasters.
 ## Related projects
 
 - Website: [ifuri.com](https://ifuri.com)
-- Runtime: [tellmesh/urirun](https://github.com/tellmesh/urirun)
+- Runtime: [if-uri/urirun](https://github.com/if-uri/urirun)
 - Public docs: [if-uri/docs](https://github.com/if-uri/docs)
 - Connector hub: [connect.ifuri.com](https://connect.ifuri.com)
 - Installer: [get.ifuri.com](https://get.ifuri.com)
