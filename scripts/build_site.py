@@ -43,6 +43,7 @@ page=f"""<!doctype html><html lang="en"><head>
 <p>Vectors in <a href="svg/">svg/</a>, raster in <a href="png/">png/</a>, favicon <a href="ico/favicon.ico">ico/favicon.ico</a>, print <a href="pdf/">pdf/</a>, tokens in <a href="color/">color/</a>. Full guide: <a href="COLORS.md">COLORS.md</a>.</p>
 </main>
 <footer>ifURI brand kit · <a href="https://ifuri.com/">ifuri.com</a></footer>
+<script src="https://ifuri.com/assets/ifuri-ecobar.js" defer></script>
 </body></html>"""
 (OUT/"index.html").write_text(page,encoding="utf-8")
 (OUT/"style.css").write_text(""":root{--bg:#1E1B4B;--card:rgba(255,255,255,.06);--text:#EEF2FF;--muted:#A5B4FC;--line:rgba(255,255,255,.14);--green:#34D399}
