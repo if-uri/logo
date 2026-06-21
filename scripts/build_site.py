@@ -48,7 +48,7 @@ page=f"""<!doctype html><html lang="en"><head>
 <h2>Files</h2>
 <p>Vectors in <a href="svg/">svg/</a>, raster in <a href="png/">png/</a>, favicon <a href="ico/favicon.ico">ico/favicon.ico</a>, print <a href="pdf/">pdf/</a>, tokens in <a href="color/">color/</a>. Full guide: <a href="COLORS.md">COLORS.md</a>.</p>
 </main>
-<footer>ifURI brand kit · <a href="https://ifuri.com/">ifuri.com</a></footer>
+<footer>ifURI brand kit · <a href="https://ifuri.com/">ifuri.com</a> · © 2026 <a href="https://ifuri.com">ifuri.com</a> / <a href="https://tom.sapletta.com">Tom Sapletta</a></footer>
 <script src="https://ifuri.com/assets/ifuri-ecobar.js" defer></script>
 </body></html>"""
 (OUT/"index.html").write_text(page,encoding="utf-8")
