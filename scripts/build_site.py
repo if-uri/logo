@@ -31,6 +31,12 @@ grid="".join(cards)
 page=f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ifURI — logo & brand kit</title><meta name="theme-color" content="#1E1B4B">
+<meta name="description" content="ifURI brand kit — logo, colour palette (indigo/emerald/slate), icons and tokens in SVG, PNG, ICO and PDF.">
+<link rel="canonical" href="https://logo.ifuri.com/">
+<meta property="og:title" content="ifURI — logo & brand kit"><meta property="og:description" content="ifURI brand kit — logo, colour palette, icons and design tokens in SVG, PNG, ICO and PDF.">
+<meta property="og:image" content="https://ifuri.com/assets/og-ifuri.png"><meta property="og:url" content="https://logo.ifuri.com/">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://ifuri.com/assets/og-ifuri.png">
+<script type="application/ld+json">{{"@context":"https://schema.org","@type":"WebSite","name":"ifURI brand kit","url":"https://logo.ifuri.com/","description":"ifURI brand kit — logo, colour palette, icons and design tokens."}}</script>
 <link rel="icon" href="svg/icon/ifuri-favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
 </head><body>
 <header><a class="brand" href="index.html">ifURI <span>brand</span></a>
