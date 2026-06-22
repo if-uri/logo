@@ -4,3 +4,7 @@
 .idea/modules.xml
 .idea/vcs.xml
 _site/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
