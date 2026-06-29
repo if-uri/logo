@@ -8,7 +8,8 @@ from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.pens.boundsPen import BoundsPen
 
-ROOT="/home/claude/ifuri-logo/pkg"
+import pathlib as _pathlib
+ROOT=str(_pathlib.Path.home() / "ifuri-logo/pkg")
 
 # ============================================================
 #  STANDARDIZED COLOR TOKENS
@@ -49,8 +50,8 @@ MOTTO="name it run it"
 # ============================================================
 #  FONTS / TEXT -> PATHS
 # ============================================================
-med=TTFont("/home/claude/ifuri-logo/Poppins-Medium.ttf")
-reg=TTFont("/home/claude/ifuri-logo/Poppins-Regular.ttf")
+med=TTFont(str(_pathlib.Path.home() / "ifuri-logo/Poppins-Medium.ttf"))
+reg=TTFont(str(_pathlib.Path.home() / "ifuri-logo/Poppins-Regular.ttf"))
 def layout(font, segments):
     gs=font.getGlyphSet(); cmap=font.getBestCmap(); upm=font["head"].unitsPerEm
     out=[]; bp=BoundsPen(gs); x=0.0
